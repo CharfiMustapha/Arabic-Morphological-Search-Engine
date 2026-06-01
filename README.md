@@ -13,6 +13,7 @@ The system includes multiple interactive interfaces that cover the full workflow
 * Defining and editing morphological schemes (patterns)
 * Generating words from roots and schemes
 * Validating whether a word is correct according to morphological rules
+
 The application validates all inputs, removes duplicates, and ensures consistency across the dataset. It also provides detailed feedback for user actions such as import results and validation outputs.
 
 The project is built with a modern frontend (Angular) and communicates with a backend service responsible for processing, validation, and data storage.
