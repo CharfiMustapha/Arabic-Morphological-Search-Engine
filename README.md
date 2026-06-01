@@ -86,6 +86,46 @@ The project is built with a modern frontend (Angular) and communicates with a ba
 
 ---
 
+## Installation and Execution
+
+### Prerequisites
+Before running the project, make sure you have installed:
+* Node.js (≥ 18)
+* Angular CLI
+* Java (JDK 17+ recommended)
+
+---
+
+1. Backend Setup (Java API)
+The backend is implemented in pure Java and exposes API functions for morphological processing.
+*Run the backend*
+Simply execute the Main class:
+
+   ```bash
+   java Main
+   
+The backend server will start on:
+  http://localhost:8001   
+
+2. Frontend Setup (Angular)
+  * Navigate to frontend folder:
+    ```bash
+   cd frontend
+   * Install dependencies
+      ```bash
+      npm install
+  * Start Angular application
+    ```bash
+    ng serve
+
+  ### Run the Project
+* Start the Java backend by running Main (port 8001)
+* Start the Angular frontend (port 4200)
+* Open your browser:
+  http://localhost:4200
+  
+---
+
 ## Usage
 1. Root Interface
    * Add or import roots
@@ -102,52 +142,17 @@ The project is built with a modern frontend (Angular) and communicates with a ba
    * View validation result
 ---
 
-## Installation and Execution
+## Import Report
 
-### Install Node.js and Next.js
+After importing roots, the system displays:
 
-1. Install Node.js (recommended version ≥ 18):
+* ✓ Successfully imported: valid roots added
+* ⚠ Skipped: duplicate roots
+* ❌ Errors: invalid entries
 
-   ```bash
-   sudo apt update
-   sudo apt install nodejs npm
-   
-2. Verify the installation:
-
-   ```bash
-   node -v
-   npm -v
-   
-3. Install frontend dependencies:
-
-   ```bash
-   cd Full_App
-   npm install
-   
-
----
-
-### Run the Project
-
-1. Start the frontend (the C backend will start automatically):
-
-   ```bash
-   npm run dev
-   
-2. Open your browser and navigate to:
-
-   
-   http://localhost:3000
-   
-
----
-
-## Usage
-
-1. Upload a file or add processes manually.
-2. Edit or delete processes as needed.
-3. Select the desired scheduling algorithms.
-4. Run the simulation.
-5. View the scheduling results and the corresponding Gantt chart.
+Error details include:
+* Line number
+* Root value
+* Reason for rejection
 
 ---
