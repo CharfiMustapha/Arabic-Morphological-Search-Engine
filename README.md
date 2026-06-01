@@ -79,9 +79,27 @@ The project is built with a modern frontend (Angular) and communicates with a ba
 
 ## Technologies
 
-* *Frontend*: Next.js
-* *Backend*: C
+* *Frontend*: Angular
+* *Backend*: Java-based REST API for morphological processing
+* *Data Format*: JSON / TXT input support
+* *Encoding*: UTF-8 (for Arabic compatibility)
 
+---
+
+## Usage
+1. Root Interface
+   * Add or import roots
+   * Manage existing entries
+2. Schemes Interface
+   * Define morphological patterns
+   * Edit or update rules
+3. Generation Interface
+   * Select root + scheme
+   * Generate derived words
+4. Validation Interface
+   * Enter a word
+   * Check correctness
+   * View validation result
 ---
 
 ## Installation and Execution
