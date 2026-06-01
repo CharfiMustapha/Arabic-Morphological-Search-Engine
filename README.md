@@ -115,13 +115,16 @@ The backend server will start on:
 2. Frontend Setup (Angular)
   * Navigate to frontend folder:
     ```bash
-   cd frontend
+    cd frontend
+    ```
    * Install dependencies
       ```bash
       npm install
+      ```
   * Start Angular application
     ```bash
     ng serve
+    ```
 
   ### Run the Project
 * Start the Java backend by running Main (port 8001)
