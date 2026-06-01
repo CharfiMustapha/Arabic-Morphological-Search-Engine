@@ -58,18 +58,18 @@ The project is built with a modern frontend (Angular) and communicates with a ba
 * Minimum length: 3 characters per root
 
 ### Example
-   ```bash
-
-   كتب
-   درس
-   علم
-   فعل
-   حرك
-   سمع
-   بصر
-   قال
-   ذهب
-   جاء
+```bash
+كتب
+درس
+علم
+فعل
+حرك
+سمع
+بصر
+قال
+ذهب
+جاء
+```
 ### Ignored Data
 
 * Empty lines
