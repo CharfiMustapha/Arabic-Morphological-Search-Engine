@@ -106,7 +106,8 @@ The backend is implemented in pure Java and exposes API functions for morphologi
 Simply execute the Main class:
 
    ```bash
-   java Main```
+   java Main
+   ```
    
 The backend server will start on:
   http://localhost:8001   
