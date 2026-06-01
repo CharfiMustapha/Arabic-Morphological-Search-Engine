@@ -70,6 +70,11 @@ The project is built with a modern frontend (Angular) and communicates with a ba
 قال
 ذهب
 جاء
+### Ignored Data
+
+* Empty lines
+* Duplicate roots
+* Invalid entries (less than 3 characters)
 ---
 
 ## Technologies
