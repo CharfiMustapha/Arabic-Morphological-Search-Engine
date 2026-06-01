@@ -102,6 +102,7 @@ Before running the project, make sure you have installed:
 The backend is implemented in pure Java and exposes API functions for morphological processing.
 
 *Run the backend*
+
 Simply execute the Main class:
 
    ```bash
