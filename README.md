@@ -7,6 +7,7 @@ This project is a web-based Arabic morphology system designed to manage Arabic r
 ## Description
 
 This application provides a structured environment for working with Arabic morphology. It is centered around Arabic roots (جذور) and patterns (أوزان / شِيم), enabling users to generate and analyze derived words.
+
 The system includes multiple interactive interfaces that cover the full workflow of Arabic word processing:
 * Managing and importing Arabic roots
 * Defining and editing morphological schemes (patterns)
