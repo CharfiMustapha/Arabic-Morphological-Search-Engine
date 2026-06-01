@@ -59,7 +59,6 @@ The project is built with a modern frontend (Angular) and communicates with a ba
 
 ### Example
 
- ```bash
 كتب
 درس
 علم
